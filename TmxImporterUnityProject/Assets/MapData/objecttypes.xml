@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objecttypes>
+ <objecttype name="Block" color="#ff0000">
+  <property name="Collision" type="bool" default="true"/>
+  <property name="Some" type="string"/>
+ </objecttype>
+ <objecttype name="Table" color="#a0a0a4">
+  <property name="Collision" type="bool" default="true"/>
+  <property name="Some" type="string"/>
+ </objecttype>
+</objecttypes>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="33" tileheight="33" nextobjectid="24">
+ <tileset firstgid="1" source="tmw_desert_spacing.tsx"/>
+ <tileset firstgid="49" source="sewer_tileset.tsx"/>
+ <tileset firstgid="121" name="my" tilewidth="33" tileheight="33" tilecount="48" columns="8">
+  <image source="tmw_desert_spacing.png" width="265" height="199"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="10" height="10">
+  <properties>
+   <property name="PropertyB" type="bool" value="true"/>
+   <property name="PropertyC" type="color" value=""/>
+   <property name="PropertyF" type="float" value="0"/>
+   <property name="PropertyFile" type="file" value=""/>
+   <property name="PropertyInt" type="int" value="0"/>
+   <property name="PropertyString" value=""/>
+  </properties>
+  <data>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="1"/>
+   <tile gid="2"/>
+   <tile gid="3"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="17"/>
+   <tile gid="18"/>
+   <tile gid="19"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="25"/>
+   <tile gid="27"/>
+   <tile gid="6"/>
+   <tile gid="8"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="41"/>
+   <tile gid="43"/>
+   <tile gid="22"/>
+   <tile gid="24"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="31"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+   <tile gid="30"/>
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1">
+  <object id="6" name="b" type="Block" gid="32" x="0" y="65" width="65" height="65"/>
+  <object id="9" gid="40" x="297" y="330" width="33" height="33"/>
+  <object id="10" gid="49" x="165" y="33" width="24" height="24"/>
+ </objectgroup>
+ <objectgroup name="Object Layer 2" offsetx="33" offsety="0">
+  <object id="11" gid="32" x="0" y="33" width="33" height="33"/>
+  <object id="15" x="131" y="8" width="25" height="25"/>
+  <object id="23" x="276.909" y="328">
+   <polyline points="0,0 -5.18182,-1.18182 -8.09091,-3.18182 -11,-4.18182 -10.9091,-6.09091 -9.09091,-6.45455 -8.18182,-7.90909 -6.90909,-9.63636 -9.27273,-11.1818 -11.6364,-15.8182 -6.63636,-16.2727 -8.72727,-25.1818 -3.18182,-25.5455 -3.09091,-29.5455 1.27273,-29.2727 6.36364,-26.0909 10.0909,-27.8182 12.1818,-25.0909 13,-22.1818 14,-18.5455 17.3636,-18.3636 17.2727,-11.1818 15.3636,-8.36364 16.6364,-6.72727 15.4545,-5.45455 16.3636,-3.63636 15.0909,-1.90909 7.54545,0.181818 0.0909091,0"/>
+  </object>
+ </objectgroup>
+</map>

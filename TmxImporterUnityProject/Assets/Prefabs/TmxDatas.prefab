@@ -1,0 +1,1814 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &177934
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 432802}
+  - 114: {fileID: 11418432}
+  m_Layer: 0
+  m_Name: TmxDatas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &432802
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 177934}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.769622, y: 0.5878906, z: -0.5200577}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11418432
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 177934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d78c16fa8ba895429dc3b0d986a9b1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tmxFile: {fileID: 102900000, guid: 5dadb56e7592fe144b992330518ac3a5, type: 3}
+  tmxFilePath: Assets/MapData/map.tmx
+  mapFormat:
+    version: 1.0
+    orientation: orthogonal
+    renderorder: right-down
+    width: 10
+    height: 10
+    tileWidth: 33
+    tileHeight: 33
+    tileSets:
+    - firstGid: 1
+      source: tmw_desert_spacing.tsx
+      orgTileSet:
+        firstGid: 0
+        source: 
+        name: tmw_desert_spacing
+        tileWidth: 33
+        tileHeight: 33
+        tileCount: 48
+        columns: 8
+        tileOffset:
+          x: 0
+          y: 0
+        image:
+          source: tmw_desert_spacing.png
+          width: 265
+          height: 199
+          sourceAsset: {fileID: 2800000, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        tiles:
+        - id: 0
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300000, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 1
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300002, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 2
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300004, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 3
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300006, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 4
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300008, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 5
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300010, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 6
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300012, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 7
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300014, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 8
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300016, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 9
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300018, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 10
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300020, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 11
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300022, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 12
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300024, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 13
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300026, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 14
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300028, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 15
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300030, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 16
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300032, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 17
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300034, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 18
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300036, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 19
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300038, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 20
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300040, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 21
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300042, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 22
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300044, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 23
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300046, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 24
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300048, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 25
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300050, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 26
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300052, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 27
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300054, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 28
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300056, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 29
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300058, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 30
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300060, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 31
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300062, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 32
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300064, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 33
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300066, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 34
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300068, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 35
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300070, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 36
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300072, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 37
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300074, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 38
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300076, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 39
+          animation:
+            frames:
+            - tileID: 39
+              duration: 1000
+            - tileID: 37
+              duration: 1000
+            animController: {fileID: 0}
+          sprite: {fileID: 21300078, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 40
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300080, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 41
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300082, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 42
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300084, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 43
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300086, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 44
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300088, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 45
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300090, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 46
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300092, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+        - id: 47
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300094, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - firstGid: 49
+      source: sewer_tileset.tsx
+      orgTileSet:
+        firstGid: 0
+        source: 
+        name: sewer_tileset
+        tileWidth: 24
+        tileHeight: 24
+        tileCount: 72
+        columns: 8
+        tileOffset:
+          x: 0
+          y: 0
+        image:
+          source: sewer_tileset.png
+          width: 192
+          height: 217
+          sourceAsset: {fileID: 2800000, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        tiles:
+        - id: 0
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300000, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 1
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300002, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 2
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300004, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 3
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300006, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 4
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300008, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 5
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300010, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 6
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300012, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 7
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300014, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 8
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300016, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 9
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300018, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 10
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300020, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 11
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300022, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 12
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300024, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 13
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300026, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 14
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300028, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 15
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300030, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 16
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300032, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 17
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300034, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 18
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300036, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 19
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300038, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 20
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300040, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 21
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300042, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 22
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300044, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 23
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300046, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 24
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300048, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 25
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300050, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 26
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300052, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 27
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300054, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 28
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300056, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 29
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300058, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 30
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300060, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 31
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300062, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 32
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300064, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 33
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300066, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 34
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300068, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 35
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300070, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 36
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300072, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 37
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300074, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 38
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300076, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 39
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300078, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 40
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300080, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 41
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300082, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 42
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300084, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 43
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300086, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 44
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300088, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 45
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300090, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 46
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300092, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 47
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300094, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 48
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300096, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 49
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300098, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 50
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300100, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 51
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300102, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 52
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300104, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 53
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300106, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 54
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300108, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 55
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300110, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 56
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300112, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 57
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300114, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 58
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300116, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 59
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300118, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 60
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300120, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 61
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300122, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 62
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300124, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 63
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300126, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 64
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300128, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 65
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300130, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 66
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300132, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 67
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300134, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 68
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300136, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 69
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300138, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 70
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300140, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+        - id: 71
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300142, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - firstGid: 121
+      source: 
+      orgTileSet:
+        firstGid: 121
+        source: 
+        name: my
+        tileWidth: 33
+        tileHeight: 33
+        tileCount: 48
+        columns: 8
+        tileOffset:
+          x: 0
+          y: 0
+        image:
+          source: tmw_desert_spacing.png
+          width: 265
+          height: 199
+          sourceAsset: {fileID: 2800000, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        tiles:
+        - id: 0
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300096, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 1
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300098, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 2
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300100, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 3
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300102, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 4
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300104, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 5
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300106, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 6
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300108, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 7
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300110, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 8
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300112, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 9
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300114, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 10
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300116, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 11
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300118, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 12
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300120, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 13
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300122, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 14
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300124, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 15
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300126, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 16
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300128, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 17
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300130, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 18
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300132, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 19
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300134, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 20
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300136, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 21
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300138, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 22
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300140, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 23
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300142, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 24
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300144, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 25
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300146, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 26
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300148, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 27
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300150, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 28
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300152, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 29
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300154, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 30
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300156, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 31
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300158, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 32
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300160, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 33
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300162, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 34
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300164, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 35
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300166, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 36
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300168, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 37
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300170, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 38
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300172, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 39
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300174, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 40
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300176, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 41
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300178, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 42
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300180, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 43
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300182, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 44
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300184, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 45
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300186, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 46
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300188, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+        - id: 47
+          animation:
+            frames: []
+            animController: {fileID: 0}
+          sprite: {fileID: 21300190, guid: b6852d019dcb0f3479a9544c15fbbf9e, type: 3}
+    layers:
+    - name: Tile Layer 1
+      width: 10
+      height: 10
+      visible: 1
+      data:
+        encoding: 
+        tiles:
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 1
+        - gid: 2
+        - gid: 3
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 17
+        - gid: 18
+        - gid: 19
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 25
+        - gid: 27
+        - gid: 6
+        - gid: 8
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 41
+        - gid: 43
+        - gid: 22
+        - gid: 24
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 31
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+        - gid: 30
+    objGroups:
+    - name: Object Layer 1
+      offsetX: 0
+      offsetY: 0
+      objects:
+      - id: 6
+        name: b
+        type: Block
+        gid: 32
+        x: 0
+        y: 65
+        width: 65
+        height: 65
+        visible: 1
+        polyLine:
+          points: []
+      - id: 9
+        name: 
+        type: 
+        gid: 40
+        x: 297
+        y: 330
+        width: 33
+        height: 33
+        visible: 1
+        polyLine:
+          points: []
+      - id: 10
+        name: 
+        type: 
+        gid: 49
+        x: 165
+        y: 33
+        width: 24
+        height: 24
+        visible: 1
+        polyLine:
+          points: []
+    - name: Object Layer 2
+      offsetX: 33
+      offsetY: 0
+      objects:
+      - id: 11
+        name: 
+        type: 
+        gid: 32
+        x: 0
+        y: 33
+        width: 33
+        height: 33
+        visible: 1
+        polyLine:
+          points: []
+      - id: 15
+        name: 
+        type: 
+        gid: 0
+        x: 131
+        y: 8
+        width: 25
+        height: 25
+        visible: 1
+        polyLine:
+          points: []
+      - id: 23
+        name: 
+        type: 
+        gid: 0
+        x: 276.909
+        y: 328
+        width: 0
+        height: 0
+        visible: 1
+        polyLine:
+          points:
+          - {x: 0, y: -0}
+          - {x: -5.18182, y: 1.18182}
+          - {x: -8.09091, y: 3.18182}
+          - {x: -11, y: 4.18182}
+          - {x: -10.9091, y: 6.09091}
+          - {x: -9.09091, y: 6.45455}
+          - {x: -8.18182, y: 7.90909}
+          - {x: -6.90909, y: 9.63636}
+          - {x: -9.27273, y: 11.1818}
+          - {x: -11.6364, y: 15.8182}
+          - {x: -6.63636, y: 16.2727}
+          - {x: -8.72727, y: 25.1818}
+          - {x: -3.18182, y: 25.5455}
+          - {x: -3.09091, y: 29.5455}
+          - {x: 1.27273, y: 29.2727}
+          - {x: 6.36364, y: 26.0909}
+          - {x: 10.0909, y: 27.8182}
+          - {x: 12.1818, y: 25.0909}
+          - {x: 13, y: 22.1818}
+          - {x: 14, y: 18.5455}
+          - {x: 17.3636, y: 18.3636}
+          - {x: 17.2727, y: 11.1818}
+          - {x: 15.3636, y: 8.36364}
+          - {x: 16.6364, y: 6.72727}
+          - {x: 15.4545, y: 5.45455}
+          - {x: 16.3636, y: 3.63636}
+          - {x: 15.0909, y: 1.90909}
+          - {x: 7.54545, y: -0.181818}
+          - {x: 0.0909091, y: -0}
+  tsxTileSetFormats:
+  - firstGid: 0
+    source: 
+    name: tmw_desert_spacing
+    tileWidth: 33
+    tileHeight: 33
+    tileCount: 48
+    columns: 8
+    tileOffset:
+      x: 0
+      y: 0
+    image:
+      source: tmw_desert_spacing.png
+      width: 265
+      height: 199
+      sourceAsset: {fileID: 2800000, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    tiles:
+    - id: 0
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300000, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 1
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300002, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 2
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300004, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 3
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300006, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 4
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300008, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 5
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300010, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 6
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300012, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 7
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300014, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 8
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300016, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 9
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300018, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 10
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300020, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 11
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300022, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 12
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300024, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 13
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300026, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 14
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300028, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 15
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300030, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 16
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300032, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 17
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300034, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 18
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300036, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 19
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300038, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 20
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300040, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 21
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300042, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 22
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300044, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 23
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300046, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 24
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300048, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 25
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300050, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 26
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300052, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 27
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300054, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 28
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300056, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 29
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300058, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 30
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300060, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 31
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300062, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 32
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300064, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 33
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300066, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 34
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300068, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 35
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300070, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 36
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300072, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 37
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300074, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 38
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300076, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 39
+      animation:
+        frames:
+        - tileID: 39
+          duration: 1000
+        - tileID: 37
+          duration: 1000
+        animController: {fileID: 0}
+      sprite: {fileID: 21300078, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 40
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300080, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 41
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300082, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 42
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300084, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 43
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300086, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 44
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300088, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 45
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300090, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 46
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300092, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+    - id: 47
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300094, guid: 66d9d6c09d10da64bbc974fd633333dd, type: 3}
+  - firstGid: 0
+    source: 
+    name: sewer_tileset
+    tileWidth: 24
+    tileHeight: 24
+    tileCount: 72
+    columns: 8
+    tileOffset:
+      x: 0
+      y: 0
+    image:
+      source: sewer_tileset.png
+      width: 192
+      height: 217
+      sourceAsset: {fileID: 2800000, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    tiles:
+    - id: 0
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300000, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 1
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300002, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 2
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300004, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 3
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300006, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 4
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300008, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 5
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300010, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 6
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300012, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 7
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300014, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 8
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300016, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 9
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300018, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 10
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300020, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 11
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300022, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 12
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300024, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 13
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300026, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 14
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300028, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 15
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300030, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 16
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300032, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 17
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300034, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 18
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300036, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 19
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300038, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 20
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300040, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 21
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300042, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 22
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300044, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 23
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300046, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 24
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300048, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 25
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300050, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 26
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300052, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 27
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300054, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 28
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300056, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 29
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300058, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 30
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300060, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 31
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300062, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 32
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300064, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 33
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300066, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 34
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300068, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 35
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300070, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 36
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300072, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 37
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300074, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 38
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300076, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 39
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300078, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 40
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300080, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 41
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300082, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 42
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300084, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 43
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300086, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 44
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300088, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 45
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300090, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 46
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300092, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 47
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300094, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 48
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300096, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 49
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300098, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 50
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300100, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 51
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300102, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 52
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300104, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 53
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300106, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 54
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300108, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 55
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300110, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 56
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300112, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 57
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300114, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 58
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300116, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 59
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300118, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 60
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300120, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 61
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300122, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 62
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300124, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 63
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300126, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 64
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300128, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 65
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300130, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 66
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300132, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 67
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300134, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 68
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300136, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 69
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300138, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 70
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300140, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+    - id: 71
+      animation:
+        frames: []
+        animController: {fileID: 0}
+      sprite: {fileID: 21300142, guid: 60a2b31c02b64b247986740119370d86, type: 3}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 177934}
+  m_IsPrefabParent: 1
