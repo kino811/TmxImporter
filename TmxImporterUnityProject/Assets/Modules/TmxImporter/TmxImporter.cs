@@ -60,8 +60,10 @@ namespace Kino.Tmx {
                                 XmlNode tileSetNodeInTsx = tsx.SelectSingleNode("tileset");
 
                                 Formats.TileSet fmTileSetForTsx = ImportTileSetFormat(tileSetNodeInTsx);
-                                this.tsxTileSetFormats.Add(fmTileSetForTsx);
-                                fmTileSet.orgTileSet = fmTileSetForTsx;
+                                Formats.TileSet tsxTileSetAsset = fmTileSetForTsx.MakeAsset();
+
+                                this.tsxTileSetFormats.Add(tsxTileSetAsset);
+                                fmTileSet.orgTileSet = tsxTileSetAsset;
                             }
                             else {
                                 Formats.TileSet orgTileSet = ImportTileSetFormat(tileSetNode);

@@ -1,5 +1,9 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
+using TmxUtil = Kino.Tmx.TmxUtil;
 
 namespace Kino.Tmx.Formats {
     // refer to : http://doc.mapeditor.org/reference/tmx-map-format/
@@ -120,7 +124,7 @@ namespace Kino.Tmx.Formats {
 
     /*Can contain: properties (since 0.8), terraintypes (since 0.9)*/
     [System.SerializableAttribute]
-    public class TileSet {
+    public class TileSet : ScriptableObject {
         public int firstGid;
         /*source: If this tileset is stored in an external TSX (Tile Set XML) file, this attribute refers to that file. That TSX file has the same structure as the <tileset> element described here. (There is the firstgid attribute missing and this source attribute is also not there. These two attributes are kept in the TMX map, since they are map specific.)*/
         public string source = "";
@@ -132,6 +136,18 @@ namespace Kino.Tmx.Formats {
         public TileOffset tileOffset;
         public Image image;
         public List<Tile> tiles = new List<Tile>();
+
+        public TileSet MakeAsset() {
+#if UNITY_EDITOR
+            TmxUtil.CreateDirectory("Assets/TileSets");
+            string assetPath = "Assets/TileSets/" + this.name + ".asset";
+            AssetDatabase.CreateAsset(this, assetPath);
+            AssetDatabase.SaveAssets();
+            AssetDatabase.Refresh();
+
+            return AssetDatabase.LoadAssetAtPath<TileSet>(assetPath);
+#endif
+        }
     }
 
     [System.SerializableAttribute]
