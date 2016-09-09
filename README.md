@@ -1,4 +1,5 @@
-# TmxImporter
+TmxImporter
+===========
 
 tiled map editor:
 [http://www.mapeditor.org](http://www.mapeditor.org)
@@ -6,15 +7,18 @@ tiled map editor:
 tmx map format:
 [http://doc.mapeditor.org/reference/tmx-map-format/](http://doc.mapeditor.org/reference/tmx-map-format/)
 
-### 설명
+설명
+----
 Tiled Map Editor 로 만든 결과물을 Unity3D로 불러오는 기능.
 
 작업시 Unity3D 버전: 5.3
 
-### 사용법
+사용법
+------
 TmxImporterUnityProject 의 Assets/Scenes/Main.unity 참고
 
-### 새로운 씬에서 사용법
+새로운 씬에서 사용법
+--------------------
 빈 씬을 만들었을시, 빈 게임오브젝트는 만들고 Assets/Modules/TmxImporter/TmxImporter.cs 를 컴포넌트로 추가한다.
 
 인스펙터의 추가한 컴포넌트의 tmx file에 tmx 확장자 파일을 드래그드랍후 인스펙터 상의 import 버튼 누른다. 
@@ -40,6 +44,14 @@ map 이름의 게임오브젝트가 생성된다.
     * Polygon
 * 에니메이션 생성. 에니메이션은 플레이 후에 확인 가능하다.
 
-### 구현 안된 기능
+스크린샷
+--------
 
-* 
+![Tiled 화면][tiled_screenshot]
+
+![임포트후 유니티 화면][unity_screenshot]
+
+---
+
+[unity_screenshot]: Image/unity_screenshot.PNG "Unity3D"
+[tiled_screenshot]: Image/tiled_screenshot.PNG "Tiled"

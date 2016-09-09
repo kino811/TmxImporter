@@ -1,6 +1,0 @@
-
-namespace Kino {
-    class GameInfoManagerEditor {
-        
-    }
-}
